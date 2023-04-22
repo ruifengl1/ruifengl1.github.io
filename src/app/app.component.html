@@ -1,1 +1,32 @@
-<p>This is my personal website</p>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav mx-auto">
+      <li class="nav-item">
+        <button  class="btn btn-dark text" (click)="goToAboutMe()">About me</button>
+      </li>
+      <li class="nav-item">
+        <button class="btn btn-dark text" (click)="goToSkills()">Skills</button>
+      </li>
+      <li class="nav-item">
+        <button class="btn btn-dark text" (click)="goToExperiences()">Experiences</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<div id="about-me" class="container">
+  <p>this is about me</p>
+  <app-about-me></app-about-me>
+</div>
+
+<div id="skills" class="container">
+  <p> this is skills</p>
+  <app-skills></app-skills>
+</div>
+
+<div id="experiences" class="container">
+  <p>this is experiences</p>
+  <app-experiences></app-experiences>
+</div>
