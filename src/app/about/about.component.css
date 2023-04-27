@@ -1,0 +1,105 @@
+.home-section:first-of-type {
+  padding-top: 50px;
+}
+.home-section {
+  background-color: #fff;
+  padding: 110px 0;
+  animation: intro .3s both;
+  animation-delay: .15s;
+}
+
+.wg-about {
+  margin-top: 60px;
+}
+
+.portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  width: 150px; /* adjust the width as needed */
+  object-fit: cover;
+}
+
+.portrait-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.portrait-title h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+}
+
+.portrait-title h3 {
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 1.0rem;
+  font-family: Montserrat, sans-serif;
+  color: #7d7d7d;
+}
+
+.fab {
+  color: black;
+}
+.network-icon{
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  padding-left: 0;
+}
+
+.big-icon{
+  font-size: 1.5em;
+}
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+  10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+  20% { transform: rotate(-8.0deg) }
+  30% { transform: rotate(14.0deg) }
+  40% { transform: rotate(-4.0deg) }
+  50% { transform: rotate(10.0deg) }
+  60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+.institution{
+  margin-top: auto;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+
+.course{
+  margin-bottom: auto;
+}
+
+.education{
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 23px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.interests{
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 23px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}

@@ -4,16 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
-import { AboutMeComponent } from './about-me/about-me.component';
+import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperiencesComponent } from './experiences/experiences.component';
+import { HeaderComponent } from './header/header.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutMeComponent,
+    AboutComponent,
     SkillsComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+    HeaderComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

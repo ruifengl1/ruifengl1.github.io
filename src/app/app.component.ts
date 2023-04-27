@@ -18,7 +18,7 @@ export class AppComponent implements OnInit{
   }
 
   goToAboutMe(){
-    this.scroller.scrollToAnchor("about-me");
+    this.scroller.scrollToAnchor("about");
   }
 
   goToSkills(){
