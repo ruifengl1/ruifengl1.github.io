@@ -1,0 +1,51 @@
+.home-section {
+  background-color: #fff;
+  padding: 110px 0;
+  animation: intro .3s both;
+  animation-delay: .15s;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-heading h1 {
+  margin: 0 0 10px;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 2.5rem;
+}
+
+.section-heading p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #b2b2b2
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 20%;
+}
+
+.right {
+  width: 80%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}

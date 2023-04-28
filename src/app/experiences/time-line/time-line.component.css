@@ -1,0 +1,81 @@
+body {
+  background: white;
+}
+
+.timeline {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: "Fira Sans", sans-serif;
+  color: black;
+}
+
+.timeline-component {
+  margin: 0 20px 20px 20px;
+}
+
+.timeline-component-bg {
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* LEAVE TILL LAST */
+.timeline-component-bottom {
+  margin-bottom: 0;
+}
+
+.timeline-middle {
+  position: relative;
+  background: black;
+}
+
+.timeline-point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+}
+
+/* LEAVE TILL LAST */
+.timeline-point-bottom {
+  top: initial;
+  bottom: 0;
+}
+
+.timeline-date-right {
+  text-align: right;
+}
+.name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title {
+  color: #474744;
+  line-height: 30px;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.skills {
+  color: #777772;
+  font-size: 14px;
+  line-height: 2;
+  margin-bottom: 3px;
+}
+
+.date{
+  color: #5f5f5b;
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 3px;
+}

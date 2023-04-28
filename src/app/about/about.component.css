@@ -1,5 +1,6 @@
 .home-section:first-of-type {
-  padding-top: 50px;
+  padding-top:40px;
+  padding-bottom: 40px;
 }
 .home-section {
   background-color: #fff;

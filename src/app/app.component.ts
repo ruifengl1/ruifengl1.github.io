@@ -16,16 +16,4 @@ export class AppComponent implements OnInit{
   ngOnInit() {
     this.router.navigate(["/"]);
   }
-
-  goToAboutMe(){
-    this.scroller.scrollToAnchor("about");
-  }
-
-  goToSkills(){
-    this.scroller.scrollToAnchor("skills");
-  }
-
-  goToExperiences(){
-    this.scroller.scrollToAnchor("experiences");
-  }
 }
