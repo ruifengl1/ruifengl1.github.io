@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import {ExtraOptions, RouterModule, Routes} from '@angular/router';
 import {AppComponent} from "./app.component";
+import {SkillsComponent} from "./skills/skills.component";
 
 const routes: Routes = [
   {

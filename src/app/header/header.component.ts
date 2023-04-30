@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {ScrollableService} from "../services/scrollable.service";
 
 
 @Component({
@@ -7,5 +8,11 @@ import {Component} from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+
+  constructor(private scrollableService: ScrollableService) {}
+
+  scrollToElement(id:string) {
+    this.scrollableService.scrollTo(id);
+  }
 
 }
